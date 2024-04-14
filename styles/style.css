@@ -101,7 +101,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--active-button-color, #ff0070);
+  border-bottom: 1px solid var(--active-button-color, #ff0070);
 }
 
 .header__theme-menu-button_active {
@@ -145,6 +145,10 @@
   margin-block-end: 10px;
   color: var(--title-color, #000028);
   font-size: 18px;
+}
+
+.section__card:not(:last-child) {
+  margin-block-end: 20px;
 }
 
 .description {
